@@ -1,20 +1,11 @@
 {
-  "name": "mahi-human-bot",
+  "name": "mahi-bot",
   "version": "1.0.0",
-  "description": "Aesthetic Human Chatbot Mahi with Memory and Auto-Wishes",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
+  "scripts": { "start": "node index.js" },
   "dependencies": {
     "node-telegram-bot-api": "^0.64.0",
-    "axios": "^1.6.0",
-    "node-cron": "^3.0.3",
-    "lowdb": "^1.0.1",
-    "http": "^0.0.1-security"
-  },
-  "engines": {
-    "node": ">=14.0.0"
+    "axios": "^1.6.0"
   }
 }
 
